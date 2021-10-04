@@ -1,0 +1,240 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Lora', serif;
+}
+/* navbar css */
+.Navbar{
+   width: 100%;
+   height: 15%;
+   background:rgb(23, 23, 231);
+   display: flex;
+   align-items: center;
+   box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+   padding: 0  20px;
+   position: fixed;
+   top: 0;
+}
+/* first logo and searchbar css */
+.Navbar__first{
+  display: flex;
+  align-items: center;
+}
+.Navbar__logo{
+  font-size: 60px;
+  color: white;
+  cursor: pointer;
+}
+.Navbar__search{
+  font-size: 20px;
+  text-align:center ;
+  background: white;
+  border-radius: 30px;
+  padding:  10px;
+  cursor: text;
+  outline: none;
+  justify-content: space-between;
+}
+/* middlelogo css */
+.middle__logo{
+  width: 80Px;
+  text-align:center;
+  font-size: 55px;
+  color:white;
+  cursor: pointer;
+  padding: 10px 10px 10px;
+  margin: 0 20px;
+  border-radius: 50%;
+
+}
+/* lastlog css */
+.Navbar__last_logo{
+  width: 80Px;
+  text-align:right;
+  font-size: 55px;
+  color:white;
+  cursor: pointer;
+  padding: 5px 5px 10px;
+  margin: 0 35px;
+  justify-content:space-between;
+  border-radius: 50%;
+  float:inline-start;
+}
+/* sidebar css  */
+.sidebar{
+  width: 25%;
+  position:fixed;
+  top: 70px;
+}
+.sidebar__listimage,img{
+  display: flex;
+  margin-top: 5%;
+  margin-left: 3%;
+  padding: 8px;
+  width: 9%;
+  height:2% ;
+  border-radius: 60%;
+  overflow: hidden;
+  cursor: pointer;
+  object-fit: cover;
+  align-items: center;
+}
+.profile__list{
+position: absolute;
+margin:10%;
+margin-left: 15%;
+justify-content: center;
+align-items: center;
+}
+/* css for Stories  and posts */
+.post__lists{
+ width: 50%;
+}
+.stories{
+  margin:30%;
+  width: 100%;
+  display:flex;
+}
+.stories__col{
+  width: 25%;
+}
+.strories__body{
+margin-top: -60%;
+margin-left: 20%;
+justify-content: space-between;
+text-align: center;
+}
+/* css for stories image */
+.image{
+  height: 100%;
+  width: 100%;
+  border-radius: 0%;
+  object-fit: cover;
+  margin-left: 0;
+  background-color: teal;
+} 
+/* css for profile-logo at stories */
+.p_logo{
+  height: 30%;
+  width: 30%;;
+  border-radius: 60%;
+  align-items: left;
+  margin-top: -170%; 
+ }
+.p_logo{
+  margin-bottom: 160px;
+}
+.create{
+  width: 85%;
+  margin: 40%;
+  margin-top: -25%;
+  background-color: whitesmoke;
+  border-bottom: violet;
+  border-radius:10px;
+}
+.create__first-img{
+  width: 100%;
+}
+ .inputs{
+  margin: 25%;
+  float: right;
+  margin-bottom: -40%;
+  margin-top: -10%;
+  text-align:center ;
+  background: white;
+  border-radius: 30px;
+  padding:  10px;
+  cursor: text;
+  width: 60%;
+}
+.inputs{
+  border: none;
+  outline: none;
+}
+/* css for live,image or felling section */
+.below_inputs{
+width: 100%;
+border-top: 3px solid white;
+margin-top: 10px;
+padding-top: 10px;
+display: flex;
+justify-content: space-between;
+cursor: pointer;
+height: 10%;
+}
+.icon_first{
+  align-items: center;
+  cursor: pointer;
+  color: black;
+}
+.redcolor{
+  color: red;
+  font-size: 20px;
+}
+.bluecolor{
+  color:blue;
+  font-size: 20px;
+}
+.greencolor{
+  color: green;
+  font-size: 20px;
+}
+/* css for userpost */
+.postlist{
+  border-radius: 0%;
+}
+.postprofile{
+  width: 8%;
+  margin-left: 35px;
+  border-radius: 50%;
+  margin: 40%;
+  margin-top: -30%;
+  align-items: left;
+}
+.postprofiles{
+  width: 5%;
+  border-radius: 50%;
+  margin: 35%;
+  margin-top: -40%;
+  align-items: left;
+  flex-direction: column;
+}
+.wirtepost{
+  margin-top: -40%;
+  width: 85%;
+  margin: 48%;
+  margin-top: -49%;
+  align-items: right;
+  flex-direction: column;
+  border-top: red;
+}
+.postimg{
+  height: 100%;
+  width: 85%;
+  margin-left: 35px;
+  border-radius: 0%;
+  margin: 40%;
+  margin-top: -48%;
+  border-bottom: violet;
+  border-radius:10px;
+  border-top: 3px solid white;
+  border-color: teal;
+  background-color: red;
+}
+.sidebarRight{
+  width: 25%;
+  margin: 90%;
+  margin-top: -5%;
+  position: relative;
+}
+.btn{
+  color: blue;
+  float: right;
+  size: 100px;
+  width: 50%;
+  border-radius: 50%;
+}
